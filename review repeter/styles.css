@@ -1,0 +1,66 @@
+.card-inner{
+    margin-left: 4rem;
+}
+
+
+.rating > span:hover:before {
+    content: "\2605";
+    position: absolute;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    font-size: 1.5rem;
+}
+  
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+     content: "\2605";
+     position: absolute;
+}
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+  }
+  .rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+  }
+  .rating > span:hover:before,
+  .rating > span:hover ~ span:before {
+     content: "\2605";
+     position: absolute;
+  }
+#upVote {
+    position: absolute;
+    bottom: 0.9375rem;
+    right: 3.4375rem;
+}
+#downVote {
+    position: absolute;
+    bottom: 0.9375rem;
+    right: 0.625rem;
+}
+
+.rating {
+    position: absolute;
+    top: 0.9375rem;
+    right: 0.625rem;
+}
+.card-body {
+    box-shadow: 2px 3px 3px 0 rgba(0, 0, 0, 0.4);
+}
+#comName {
+    font-size: 1.5rem;
+}
+#userName {
+    position: relative;
+    left: 0rem;
+    bottom: 0rem;
+
+}
